@@ -47,25 +47,29 @@ body {
 
 .group {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around; 
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
+    width: 90%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
-}
-
-.group:nth-child(1) {
     min-height: 18rem;
     margin-top: 5rem;
-   
 }
 
-.group:nth-child(2) {
-     margin: 0.5rem; 
-     min-width: 3rem;
-     min-height: 5rem;
+.group2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 90%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    margin: 0.5rem; 
+    min-width: 3rem;
+    min-height: 3rem;
+    justify-content: space-evenly; 
 }
 
 .instagram-logo {
@@ -97,8 +101,7 @@ body {
     margin-top: 1rem;
 }
 .not-account {
-    color: rgb(160, 160, 160);
-   
+    color: rgb(160, 160, 160);   
 }
 
 .link-blue {
@@ -112,8 +115,7 @@ body {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    padding: 0.6rem 0;
-       
+    padding: 0.6rem 0;       
 }
 
 .get-app {
